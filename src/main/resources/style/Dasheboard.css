@@ -1,0 +1,20 @@
+.custom-anchor-pane {
+    -fx-background-color: white;
+    -fx-effect: dropshadow(three-pass-box, #797373, 8, 0.1, 1, 1);
+    -fx-background-radius: 8;
+    -fx-border-radius: 3;
+    -fx-border-insets: 45px 1px 45px -2px;
+    -fx-border-style: solid;
+    -fx-border-color: #e5e5e5;
+}
+
+.custom-anchor-pane-dois {
+    -fx-background-color: white;
+    -fx-effect: dropshadow(three-pass-box, #797373, 8, 0.1, 2, 2);
+    -fx-background-radius: 8;
+    -fx-border-radius: 3;
+    -fx-border-insets: 45px 1px 0px -2px;
+    -fx-border-style: solid;
+    -fx-border-color: #e5e5e5;
+}
+

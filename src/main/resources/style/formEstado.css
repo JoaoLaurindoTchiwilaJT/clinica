@@ -1,0 +1,111 @@
+.form{
+    -fx-border-style:solid;
+    -fx-border-radius: 14px;
+    -fx-background-radius:14px;
+    -fx-border-color: white;
+    -fx-background-color: white;
+    -fx-effect: dropshadow(three-pass-box, #9ea4a2, 3, 0.1,1,1);
+}
+
+.text-field {
+    -fx-border-color: #39D98E;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-pref-width: 400px;
+    -fx-pref-height: 40px;
+    -fx-background-color: transparent;
+    -fx-text-fill: #39D98E;
+    -fx-font-size: 16px;
+    -fx-font-family: 'Roboto', sans-serif;
+}
+
+.text-Field-assunto {
+    -fx-border-color: #39D98E;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-pref-width: 400px;
+    -fx-pref-height: 80px;
+    -fx-background-color: transparent;
+    -fx-text-fill: #39D98E;
+    -fx-font-size: 16px;
+    -fx-font-family: 'Roboto', sans-serif;
+}
+
+
+.combo-box {
+    -fx-border-color: #39D98E;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 14px;
+    -fx-pref-width: 400px;
+    -fx-pref-height: 40px;
+    -fx-background-color: transparent;
+}
+
+.scroll-pane {
+    -fx-background: white; /* Cor de fundo do ScrollPane */
+    -fx-padding: 10; /* Espaçamento interno */
+    -fx-border-color: white; /* Cor da borda */
+    -fx-border-width: 2; /* Largura da borda */
+    -fx-padding: 10px;
+    -fx-alignment: center; 
+    /*-fx-background-color: white; */
+}
+
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #666; /* Cor do thumb do scroll vertical */
+}
+
+.scroll-bar .increment-button,
+.scroll-bar .decrement-button {
+    -fx-background-color: #ddd; /* Cor dos botões de incremento/decremento */
+}
+
+.scroll-bar .track {
+    -fx-background-color: #e0e0e0; /* Cor da trilha */
+}
+
+.labesl1{
+    -fx-padding: 0px 0px 0px 10px;
+    -fx-text-fill: #39D98E;
+    -fx-background-color:white;
+    -fx-font-size: 16px;
+    -fx-font-family: 'Roboto', sans-serif; 
+    -fx-font-weight: normal; 
+    -fx-alignment: center-left; 
+    -fx-border-radius: 10px;
+    -fx-background-radius: 4px;
+}
+
+.labels{
+    -fx-text-fill: #0c0c0c;
+    -fx-font-size: 16px; 
+    -fx-alignment: center; 
+    -fx-font-family: 'Roboto', sans-serif; 
+    -fx-font-weight: normal;
+}
+
+.botao{
+    -fx-background-color:#39D98E;  
+    -fx-border-color: #39D98E; /* Cor da borda verde */
+    -fx-border-width: 2px; /* Largura da borda (ajuste conforme necessário) */
+    -fx-text-fill: white; /* Cor do texto branco */
+    -fx-font-size: 18px; /* Tamanho da fonte (opcional) */
+    -fx-border-radius: 8px; /* Raio das bordas (opcional, para bordas arredondadas) */
+    -fx-background-radius: 8px; 
+    -fx-font-family: 'Roboto', sans-serif; 
+    -fx-pref-width: 300px;
+}
+
+.botao1{
+    -fx-background-color:white;  
+    -fx-border-color: #39D98E; /* Cor da borda verde */
+    -fx-border-width: 2px; /* Largura da borda (ajuste conforme necessário) */
+    -fx-text-fill: #39D98E; /* Cor do texto branco */
+    -fx-font-size: 18px; /* Tamanho da fonte (opcional) */
+    -fx-border-radius: 8px; /* Raio das bordas (opcional, para bordas arredondadas) */
+    -fx-background-radius: 8px; 
+    -fx-font-family: 'Roboto', sans-serif; 
+    -fx-pref-width: 300px;
+}
+
+
